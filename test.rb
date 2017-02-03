@@ -9,8 +9,8 @@ while counter < 100
 
   driver = Selenium::WebDriver.for :firefox
   driver.manage.delete_all_cookies
-  #driver.get("http://ds-main.sf2.vpc.realestate.com.au/buy")
-  driver.get("http://ds-main.sf2.vpc.realestate.com.au/buy/in-mentone/list-1")
+  #driver.get("http:<URL>")
+  driver.get("<URL>")
 
   finishTime = Time.now()
   totalTime = finishTime - startTime
